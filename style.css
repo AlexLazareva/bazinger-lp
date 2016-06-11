@@ -113,18 +113,18 @@ header{
 		float: left; 
 	}
 	
-	.menu{
+	.menu-list{
 		float: right;
 		font-family: 'Droid Sans', sans-serif;
 		margin-top: 25px;
 	}
-		.menu li{
-			float:left; 
-			text-transform:uppercase; 
+		.menu-list li{
+			float: left; 
+			text-transform: uppercase; 
 			margin-right: 30px; 
 			font-size: .875em;
 		}
-			.menu li a{
+			.menu-list li a{
 				color:#fff; 
 				text-decoration:none;
 			}

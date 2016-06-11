@@ -1,3 +1,9 @@
+$(function(){
+	$('.globe').on('click', function(){
+		$('.icons').slideToggle();
+	});
+});
+
 jQuery(document).ready(function($) {
 			$('.my-slider').unslider({
 				autoplay:true,
