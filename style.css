@@ -491,13 +491,21 @@ header{
 	}
 
 }
-@media screen and (max-width: 630px){
-	.menu li{
+@media screen and (max-width: 660px){
+	.header-top{
+		position: relative;
+	}
+	.menu-list{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.menu-list li{
 		float: none;
 		font-size: 20px;
 		padding: 10px;
 	}
-	.menu li:hover{
+	.menu-list li:hover{
 		background: rgba(0, 0, 0, .7);
 		border-bottom: 2px solid rgba(77,103,125,.4);
 	}
